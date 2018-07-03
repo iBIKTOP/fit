@@ -1,0 +1,148 @@
+@media screen and (max-width: 576px){
+	article{
+		font-size: 12px;
+	}
+}
+@media screen and (min-width: 577px) and (max-width: 768px){
+
+}
+@media screen and (min-width: 769px) and (max-width: 992px){
+
+}
+@media screen and (min-width: 993px) and (max-width: 1200px){
+
+}
+@media screen and (min-width: 1201px){
+
+}
+body{
+	position: relative;
+	font-family: 'Roboto', sans-serif !important;
+}
+.greating{
+	height: 100vh;
+	background: url("../img/eda.jpg") 100% 100% no-repeat;
+	background-size: cover;
+	position: relative;
+}
+.fon{
+	background-color: rgba(0,0,0,0.5);
+	height: 100vh;
+}
+.container{
+	/*background-color: #F5FFDB;*/
+	min-height: 100vh;
+	min-width: 100vw;
+	/*border: 1px solid lightgrey;*/
+	/*border-radius: 5px;*/
+	padding: 0 !important;
+	/*box-shadow: 0px 0px 15px grey;*/
+	box-sizing: border-box;
+	font-family: 'Roboto', sans-serif;
+	
+}
+header{
+	position: absolute;
+	z-index: 2;
+	background-color: rgba(0,0,0,0.6) !important;
+	font-size: 1.5em;
+	/*font-weight: bold;*/
+	box-shadow: 0 0 20px black;
+}
+header img{
+	width: 40px;
+	margin: 0;
+}
+.reg_form{
+	/*border: 1px solid lightgrey !important;*/
+	background: white;
+	font-weight: bold;
+	border-radius: 5px;
+	box-sizing: border-box;
+}
+.eat{
+	border-radius: 5px;
+	box-sizing: border-box;
+	box-shadow: 0 0 5px black;
+	border: 1px solid lightblue;
+}
+.eat_header{
+	background-color: lightblue;
+	font-weight: bold;
+}
+
+.eat_content{
+	border-bottom: 1px solid lightblue;
+	box-sizing: border-box;
+}
+.icons{
+	/*color: white;*/
+	font-weight: bold;
+	width: 40px;
+	height: 20px;
+	border-radius: 15px;
+	box-sizing: border-box;
+	text-align: center;
+	line-height: 20px;
+	display: inline-block;
+	font-size: 20px;
+}
+.icon_g{
+	color: #1aafb8;
+	/*background-color: #1aafb8;*/
+	border: 1px solid #1aafb8;
+	box-shadow: 0 0 3px #1aafb8;
+}
+.icon_b{
+	color: #face00;
+	/*background-color: #face00;*/
+	border: 1px solid #face00;
+	box-shadow: 0 0 3px #face00;
+}
+.icon_y{
+	color: #bf57c3;
+	/*background-color: #bf57c3;*/
+	border: 1px solid #bf57c3;
+	box-shadow: 0 0 3px #bf57c3;
+}
+.icon_w{
+	color: #008003;
+	/*background-color: #bf57c3;*/
+	border: 1px solid #008003;
+	box-shadow: 0 0 3px #008003;
+}
+.icon_text{
+	font-weight: bold;
+	/*width: 40px;*/
+	height: 20px;
+	/*border-radius: 15px;*/
+	box-sizing: border-box;
+	text-align: center;
+	line-height: 20px;
+	display: inline-block;
+}
+a, a:hover{	
+	text-decoration: none !important;
+	color: black !important;
+}
+.card{
+	box-shadow: 0 0 10px gray;
+}
+.card-header{
+	font-size: 1.5em;
+	font-weight: bold;
+	background: linear-gradient(to left, #FF75DA, #4A4DFF);
+	color: white;
+	box-shadow: 0 0 10px gray;
+	border-radius: 5px !important;
+	margin-left: 20px;
+	margin-right: 20px;
+	margin-top: -20px;
+}
+p{ 
+    text-indent: 1.5em; /* Отступ первой строки */
+    text-align: justify; /* Выравнивание по ширине */
+   }
+table{
+	border: 1px;
+}
